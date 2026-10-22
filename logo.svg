@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="164.1033mm"
+   height="79.077171mm"
+   viewBox="0 0 164.1033 79.077169"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   sodipodi:docname="lablore_logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.52410024"
+     inkscape:cx="30.528511"
+     inkscape:cy="215.60761"
+     inkscape:window-width="1621"
+     inkscape:window-height="763"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1532.2655,-29.240921)">
+    <rect
+       width="164.1033"
+       height="79.077171"
+       fill="#faf7f0"
+       id="rect1"
+       x="1532.2655"
+       y="29.240921"
+       style="stroke-width:0.353239" />
+    <text
+       x="1567.6472"
+       y="87.464439"
+       font-size="46.7786px"
+       fill="#4a3322"
+       id="text21"
+       style="stroke-width:0.730917"><tspan
+         font-family="Avenir Next, Helvetica Neue, Arial, sans-serif"
+         font-weight="700"
+         id="tspan20"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Norse;-inkscape-font-specification:Norse;stroke-width:0.730917">LaB</tspan><tspan
+         id="tspan23"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Norse;-inkscape-font-specification:'Norse Bold';stroke-width:0.730917">LORE</tspan></text>
+    <g
+       fill="none"
+       stroke="#4a3322"
+       stroke-width="5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="g10"
+       transform="matrix(0.59939995,0,0,0.59939995,1515.7255,34.478575)">
+      <g
+         stroke-linecap="butt"
+         stroke-linejoin="miter"
+         id="g9">
+        <path
+           d="M 40,10 80,43 40,76 80,109"
+           stroke-width="7"
+           id="path1" />
+        <path
+           d="M 80,10 40,43 80,76 40,109"
+           stroke-width="7"
+           id="path2" />
+        <g
+           stroke-width="4"
+           id="g8">
+          <path
+             d="M 48.3,14 H 71.7"
+             id="path3" />
+          <path
+             d="M 48.3,39 H 71.7"
+             id="path4" />
+          <path
+             d="M 48.3,47 H 71.7"
+             id="path5" />
+          <path
+             d="M 48.3,72 H 71.7"
+             id="path6" />
+          <path
+             d="M 48.3,80 H 71.7"
+             id="path7" />
+          <path
+             d="M 48.3,105 H 71.7"
+             id="path8" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

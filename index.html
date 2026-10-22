@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en-GB">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary SEO -->
+  <title>LabLore | Managed hosting for OpenCloningDB</title>
+  <meta name="description"
+    content="LabLore offers managed hosting of OpenCloningDB, the open-source database for DNA cloning and sequence design. We run, update and back up your instance so your lab can focus on science.">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="LabLore Ltd">
+  <link rel="canonical" href="https://lablore.bio/">
+  <meta name="theme-color" content="#f8f6f1">
+  <meta name="color-scheme" content="light">
+
+  <!-- PLACEHOLDER: favicon. A square icon works best (e.g. just the helix). -->
+  <!-- <link rel="icon" href="/favicon.svg" type="image/svg+xml"> -->
+  <!-- <link rel="apple-touch-icon" href="/apple-touch-icon.png"> -->
+
+  <!-- Open Graph (LinkedIn, Slack, Facebook, etc.) -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LabLore">
+  <meta property="og:title" content="LabLore | Managed hosting for OpenCloningDB">
+  <meta property="og:description"
+    content="Managed hosting of OpenCloningDB, the open-source database for DNA cloning and sequence design.">
+  <meta property="og:url" content="https://lablore.bio/">
+  <meta property="og:locale" content="en_GB">
+  <!-- PLACEHOLDER: social preview image. Must be PNG/JPG (SVG is not supported), ideally 1200x630. -->
+  <!-- <meta property="og:image" content="https://lablore.bio/og-image.png"> -->
+  <!-- <meta property="og:image:width" content="1200"> -->
+  <!-- <meta property="og:image:height" content="630"> -->
+  <!-- <meta property="og:image:alt" content="LabLore logo"> -->
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="LabLore | Managed hosting for OpenCloningDB">
+  <meta name="twitter:description"
+    content="Managed hosting of OpenCloningDB, the open-source database for DNA cloning and sequence design.">
+  <!-- <meta name="twitter:image" content="https://lablore.bio/og-image.png"> -->
+
+  <!-- PLACEHOLDER: search console verification -->
+  <!-- <meta name="google-site-verification" content="YOUR_TOKEN"> -->
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://lablore.bio/#organization",
+        "name": "LabLore",
+        "legalName": "LabLore Ltd",
+        "url": "https://lablore.bio/",
+        "logo": "https://lablore.bio/logo.svg",
+        "email": "hello@lablore.bio",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "Companies House",
+          "value": "17513444"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Burnham House, Splash Lane, Wyton",
+          "addressLocality": "Huntingdon",
+          "addressRegion": "England",
+          "postalCode": "PE28 2AF",
+          "addressCountry": "GB"
+        }
+      },
+      {
+        "@type": "Service",
+        "name": "Managed hosting of OpenCloningDB",
+        "serviceType": "Managed software hosting",
+        "provider": { "@id": "https://lablore.bio/#organization" },
+        "areaServed": "Worldwide",
+        "description": "Fully managed, hosted instances of OpenCloningDB for research labs and organisations."
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg: #f8f6f1;
+      --ink: #4a3628;
+      --ink-soft: #6e5a4b;
+      --line: #e4ddd1;
+      --card: #fffdf9;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+    }
+
+    html {
+      -webkit-text-size-adjust: 100%;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      font-size: 1.0625rem;
+      line-height: 1.6;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .wrap {
+      width: 100%;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    header {
+      padding: 32px 0 0;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      padding: 64px 0 80px;
+    }
+
+    .logo {
+      display: block;
+      width: min(420px, 100%);
+      height: auto;
+      margin-bottom: 48px;
+      margin: auto
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      text-align: center;
+      line-height: 1.15;
+      letter-spacing: -0.02em;
+      margin: 0 0 20px;
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      color: var(--ink-soft);
+      margin: 0 0 36px;
+      max-width: 34em;
+      text-align: center;
+    }
+
+    .points {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 40px;
+      display: grid;
+      gap: 12px;
+    }
+
+    .points li {
+      padding: 14px 18px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+
+    .points strong {
+      display: block;
+    }
+
+    .cta {
+      padding: 20px 30px;
+      background: var(--ink);
+      color: var(--bg);
+      text-decoration: none;
+      font-size: x-large;
+      font-weight: 600;
+      border-radius: 8px;
+    }
+
+    .cta-container {
+      text-align: center;
+    }
+
+    .cta:hover,
+    .cta:focus-visible {
+      background: #33251b;
+    }
+
+    .cta:focus-visible {
+      outline: 3px solid var(--ink-soft);
+      outline-offset: 3px;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 24px 0 32px;
+      font-size: 0.875rem;
+      color: var(--ink-soft);
+    }
+
+    footer p {
+      margin: 0 0 4px;
+    }
+
+    @media (min-width: 640px) {
+      .points {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+    <div class="wrap">
+      <img class="logo" src="logo.svg" alt="LabLore" width="1226" height="584">
+
+      <h1>OpenCloningDB managed hosting </h1>
+      <p class="lead">
+        We host and run <a href="https://opencloning.org">OpenCloningDB</a> for your lab or organisation,
+        so you get your own private instance without having to manage servers.
+      </p>
+
+      <ul class="points">
+        <li><strong>Your own instance</strong>Private, isolated deployment for your team.</li>
+        <li><strong>Fully managed</strong>Updates, backups and monitoring handled for you.</li>
+        <li><strong>From the developers</strong>Run by the people who build OpenCloning.</li>
+      </ul>
+
+      <!-- PLACEHOLDER: contact address -->
+      <div class="cta-container {
+        margin: auto
+      }">
+        <a class="cta" href="mailto:hello@lablore.bio?subject=OpenCloningDB%20hosting">Get in touch</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <!-- UK company law requires the registered name, number, place of registration
+           and registered office address to appear on the company website. -->
+      <p>&copy; <span id="year">2026</span> LabLore Ltd. Registered in England and Wales, company no. 17513444.</p>
+      <p>Registered office: Burnham House, Splash Lane, Wyton, Huntingdon, England, PE28 2AF.</p>
+      <p><a href="mailto:hello@lablore.bio">hello@lablore.bio</a></p>
+      <p>The content of this website is licensed <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY SA
+          4.0</a></p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>
